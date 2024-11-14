@@ -1,0 +1,6 @@
+@RandomSentence.Web_HostAddress = http://localhost:5265
+
+GET {{RandomSentence.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
