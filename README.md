@@ -9,16 +9,16 @@ Create an API that connects to sql server and expose 2 endpoints: PostSentence, 
 - Download sqlserver and understand how to connect to it.
 - Get a connection string.
 
-- [x] Start a new AspNet WebAPI project
-- [x] Create an appsettings.json file with the sql server connection string
-- [x] Install entity framework and entity framework for sql server and entity framework design
-- [x] create an AppDbContext class in root/DB/ to inherit from DbContext
-- [x] Inject Iconfiguration to AppDbContext
-- [x] Create a sentence class (Should only have id and sentence)
-- [x] Add DbSet to Context class 
-- [x] Create migration
-- [x] Update DB
-- [x] Add handler for PostSentence
+- [v] Start a new AspNet WebAPI project
+- [v] Create an appsettings.json file with the sql server connection string
+- [v] Install entity framework and entity framework for sql server and entity framework design
+- [v] create an AppDbContext class in root/DB/ to inherit from DbContext
+- [v] Inject Iconfiguration to AppDbContext
+- [v] Create a sentence class (Should only have id and sentence)
+- [v] Add DbSet to Context class 
+- [v] Create migration
+- [v] Update DB
+- [v] Add handler for PostSentence
 - [ ] Add handler for get random sentence
 
 ## Results
